@@ -5,6 +5,7 @@ This script looks up all the kapp-controller PackageInstall objects in whatever 
 This script requires bash, kubectl, and jq to function.
 
 ## Usage
+```
 $ ./package-report.sh
 
 Namespace: default
@@ -12,4 +13,4 @@ Package Install: cert-manager
 Installed Version: 1.5.3+vmware.4-tkg.1
 Available Upgrades: 1.7.2+vmware.1-tkg.1
 ...
-
+```
