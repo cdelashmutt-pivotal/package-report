@@ -1,0 +1,11 @@
+apiVersion: vendir.k14s.io/v1alpha1
+directories:
+- contents:
+  - git:
+      commitTitle: 1.0.3
+      sha: 3b5323d3106b5532612aa29d32ff72443e27152d
+      tags:
+      - 1.0.3
+    path: semver2
+  path: lib
+kind: LockConfig
